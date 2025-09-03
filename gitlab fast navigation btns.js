@@ -17,7 +17,6 @@
       mergeBtn.style.top = "8px"
       mergeBtn.style.right = "20px"
       mergeBtn.addEventListener("click", () => {
-          debugger
            document.querySelector("#related-merge-requests").scrollIntoView({block: "center"})
       })
       mergeBtn.innerText = "Merges"
