@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Gitlab Buttons
+// @name         Merges
 // @namespace    http://tampermonkey.net/
 // @version      2025-09-03
 // @description  try to take over the world!
@@ -17,7 +17,7 @@
       mergeBtn.style.top = "8px"
       mergeBtn.style.right = "20px"
       mergeBtn.addEventListener("click", () => {
-           document.querySelector("#related-merge-requests").scrollIntoView({block: "center"})
+           document.querySelector("#developmentitems").scrollIntoView({block: "center"})
       })
       mergeBtn.innerText = "Merges"
       mergeBtn.style.zIndex = 10000
