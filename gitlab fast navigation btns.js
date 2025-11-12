@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Merges
+// @name         Gitlab Buttons
 // @namespace    http://tampermonkey.net/
 // @version      2025-09-03
 // @description  try to take over the world!
