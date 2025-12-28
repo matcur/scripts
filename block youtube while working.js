@@ -11,7 +11,7 @@
     'use strict';
 
     const BLOCK_START = 10; // 10 AM
-    const BLOCK_END = 20;   // 8 PM
+    const BLOCK_END = 18;   // 6 PM
     const REDIRECT_URL = 'about:blank';
 
     function isWorkday() {
